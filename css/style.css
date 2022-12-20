@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* outline: 2px solid red; */
+}
+
+/* HEADER DE LAS PAGINAS */
+
+header {
+    background-color: rgba(98, 51, 105, 0.753);
+    padding: 30px;
+    display: flex;
+}
+
+
+h1 {
+    font-size: 90px;
+    align-self: center;
+    color: white;
+}
+
+.logo {
+    width: 360px;
+    height: 300px;
+
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    height: 100px;
+
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* BANNER DE LAS PAGINAS */
+
+.portada {
+    width: 100vw;
+    height: 400px;
+    opacity: 60%;
+}
+
+/* FOOTER DE LAS PAGINAS */
+
+footer {
+    display: flex;
+    padding: 40px;
+    gap: 100px;
+    justify-content: space-evenly;
+
+    background-color: rgba(98, 51, 105, 0.753);
+}
+
+.logo-footer {
+    width: 125px;
+    height: 110px;
+    padding-bottom: 20px;
+
+}
+
+.box1 ul li {
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box2 ul {
+    padding-top: 20px;
+}
+
+
+.box2 ul li {
+    padding-top: 20px;
+}
+
+
+.box2 ul li a {
+    text-decoration: none;
+    list-style: disc;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.box3 a img {
+    padding-top: 30px;
+}
+
+.box4 form {
+    display: flex;
+    padding-top: 20px;
+    flex-flow: column;
+    gap: 2px;
+}
+
+.suscribir {
+    background-color: rgba(178, 31, 198, 0.645);
+    color: rgb(255, 255, 255);
+}
+
+footer div h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+
+/* SECCION Productos mas vendidos (INDEX)*/
+
+section h2 {
+    background-color: rgb(229, 191, 248);
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    border: 2px;
+}
+
+.prod-mas-vendido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.producto1,
+.producto2,
+.producto3 {
+    text-align: center;
+    border-style: groove;
+}
+
+.producto1 img,
+.producto2 img,
+.producto3 img {
+    height: 200px;
+}
+
+.producto1 span,
+.producto2 span,
+.producto3 span {
+    font-size: 40px;
+}
+
+.producto1 p,
+.producto2 p,
+.producto3 p {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* BOTON Mas productos */
+.boton-compra {
+    text-align: center;
+    padding: 20px;
+}
+
+.boton-compra a {
+    background-color: rgb(234, 139, 231);
+    text-align: center;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 40px;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* SECCION Conoceme */
+
+.conoceme {
+    text-align: center;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.historia div {
+    text-align: right;
+    margin-right: 60px;
+    font-size: 30px;
+}
+
+.historia div a {
+    text-decoration: none;
+}
+
+.historia p {
+    text-align: center;
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* PAGINA Servicios */
+
+.cuadro-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    align-content: center;
+    padding: 80px;
+}
+
+/* Tarjeta de Servicios */
+.serv1,
+.serv2,
+.serv3,
+.serv4,
+.serv5,
+.serv6 {
+    text-align: center;
+    border-style: groove;
+    width: 550px;
+    padding: 10px;
+}
+
+.serv1 img,
+.serv2 img,
+.serv3 img,
+.serv4 img,
+.serv5 img,
+.serv6 img {
+    height: 300px;
+}
+
+.serv1 span,
+.serv2 span,
+.serv3 span,
+.serv4 span,
+.serv5 span,
+.serv6 span {
+    font-size: 15px;
+}
+
+.serv1 p,
+.serv2 p,
+.serv3 p,
+.serv4 p,
+.serv5 p,
+.serv6 p {
+    font-size: 30px;
+    background-color: rgb(174, 123, 223);
+    color: white;
+    padding: 20px;
+}
+
+/* PAGINA conoceme */
+
+.mi-historia h2 {
+    background-color: rgb(229, 191, 248);
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    border: 2px;
+}
+
+.mi-perfil,
+.formacion {
+    padding: 30px;
+}
+
+.mi-perfil p,
+.formacion p {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mi-historia img {
+    height: 400px;
+    padding: 30px;
+}
+
+
+.mi-perfil {
+    display: flex;
+}
+
+.formacion {
+    display: flex;
+}
+
+/* PAGINA diagnostico */
+
+.guia {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+
+.circulo {
+    background-color: darkgrey;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.guia div h3 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* seccion sexos */
+
+.sexos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.elegir-sexo img {
+    height: 600px;
+}
+
+/* Seccion Encuesta */
+
+.encuestas {
+    padding: 30px;
+
+}
+
+.pregunta h3 {
+    text-align: center;
+}
+
+/* PAGINA productos */
+
+.seccion-productos {
+    display: flex;
+}
+
+.cuadro-guia {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: rgb(161, 175, 175);
+}
+
+.catalogo-online input {
+    font-size: 30px;
+    margin-top: 400px;
+    color: aliceblue;
+    padding: 10px;
+    background-color: rgb(175, 111, 235);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.categoria ul {
+    list-style: none;
+    margin: 10px;
+}
+
+.categoria ul li {
+    margin: 10px;
+}
+
+.cuadro-productos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 200px;
+    padding: 80px;
+    flex-wrap: wrap;
+}
+
+/* Tarjeta de Productos */
+.prod1,
+.prod2,
+.prod3,
+.prod4,
+.prod5,
+.prod6 {
+    text-align: center;
+    border-style: groove;
+    width: 300px;
+    padding: 10px;
+}
+
+.prod1 img,
+.prod2 img,
+.prod3 img,
+.prod4 img,
+.prod5 img,
+.prod6 img {
+    height: 250px;
+    width: 200px;
+    align-content: center;
+}
+
+.prod1 span,
+.prod2 span,
+.prod3 span,
+.prod4 span,
+.prod5 span,
+.prod6 span {
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.prod1 p,
+.prod2 p,
+.prod3 p,
+.prod4 p,
+.prod5 p,
+.prod6 p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: end;
+}
